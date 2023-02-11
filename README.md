@@ -2,7 +2,7 @@
 
 ## Language
 ### Translation
-* DeepL
+* [DeepL](https://www.deepl.com/)
 
 
 ## Search
@@ -18,18 +18,18 @@
 
 ## Document
 ### Format
-* Markdown
+* [Markdown](https://daringfireball.net/projects/markdown/)
 
 
 ## Coding
 ### System
-* WSL
+* [WSL](https://learn.microsoft.com/en-us/windows/wsl/)
 
 ### Programming Language
 * [C](./C/README.md)
 
 ### Editor
-* VS Code
+* [Visual Studio Code](https://code.visualstudio.com/)
 
 ### Compiler
 * GCC
