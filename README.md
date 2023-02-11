@@ -26,14 +26,14 @@
 * WSL
 
 ### Programming Language
-* [C](./C.md)
+* [C](./C/README.md)
 
 ### Editor
 * VS Code
 
 ### Compiler
 * GCC
-* Makefile
+* [Makefile](./Makefile/README.md)
 
 ### Debuger
 * GDB
