@@ -26,14 +26,14 @@
 * [WSL](https://learn.microsoft.com/en-us/windows/wsl/)
 
 ### Programming Language
-* [C](./C/README.md)
+* **[C](./C/README.md)**
 
 ### Editor
 * [Visual Studio Code](https://code.visualstudio.com/)
 
 ### Compiler
 * GCC
-* [Makefile](./Makefile/README.md)
+* **[Makefile](./Makefile/README.md)**
 
 ### Debuger
 * GDB
