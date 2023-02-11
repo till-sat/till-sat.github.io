@@ -7,13 +7,13 @@
 
 ## Search
 ### Engine
-* www.google.com
+* Google
 
 ### Wiki
-* en.wikipedia.org
+* Wikipedia
 
 ### Q&A
-* stackoverflow.com
+* Stack Overflow
 
 
 ## Document
