@@ -4,13 +4,15 @@ title: Life is a Journey
 ---
 
 # Programming
-
+---
 ## Language
+---
 ### Translation
 * [DeepL](https://www.deepl.com/)
 
 
 ## Search
+---
 ### Engine
 * [Google](https://www.google.com/)
 
@@ -22,11 +24,13 @@ title: Life is a Journey
 
 
 ## Document
+---
 ### Format
 * [Markdown](https://daringfireball.net/projects/markdown/)
 
 
 ## Code
+---
 ### System
 * [WSL](https://learn.microsoft.com/en-us/windows/wsl/)
 
