@@ -5,6 +5,7 @@ title: Life is a Journey
 
 # Programming
 ---
+---
 ## Language
 ---
 ### Translation
@@ -30,7 +31,7 @@ title: Life is a Journey
 
 
 ## Code
----
+
 ### System
 * [WSL](https://learn.microsoft.com/en-us/windows/wsl/)
 
