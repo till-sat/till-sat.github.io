@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Life is a Journey
 ---
 
 # C
