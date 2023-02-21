@@ -1,5 +1,12 @@
 # GDB
 
+## 0 Manual
+### Started
+* [软件调试的艺术](./%E8%BD%AF%E4%BB%B6%E8%B0%83%E8%AF%95%E7%9A%84%E8%89%BA%E6%9C%AF.pdf)
+
+### Advanced
+* [Debugging with GDB The GNU Source-Level Debugger](./Debugging%20with%20GDB%20The%20GNU%20Source-Level%20Debugger.pdf)
+
 ## 1 Shell
 ### 1.1 Debug program
 ``` shell
