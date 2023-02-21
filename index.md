@@ -29,20 +29,20 @@ title: Life is a Journey
 ## Code
 ---
 ### Instruction Sets
-* **[RISC-V](./RISC-V/README.html)**
+* **[RISC-V](./my_docs/risc-v/README.html)**
 
 ### System
 * [WSL](https://learn.microsoft.com/en-us/windows/wsl/)
 
 ### Programming Language
-* **[C](./C/README.html)**
+* **[C](./my_docs/c/README.html)**
 
 ### Editor
 * [Visual Studio Code](https://code.visualstudio.com/)
 
 ### Compiler
 * GCC
-* **[Makefile](./Makefile/README.html)**
+* **[Makefile](./my_docs/makefile/README.html)**
 
 ### Debuger
-* GDB
+* **[GDB](./my_docs/gdb/README.html)**
