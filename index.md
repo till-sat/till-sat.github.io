@@ -33,6 +33,7 @@ title: Life is a Journey
 
 ### System
 * [WSL](https://learn.microsoft.com/en-us/windows/wsl/)
+* [Terminal](./my_docs/terminal/README.html)
 
 ### Programming Language
 * **[C](./my_docs/c/README.html)**
