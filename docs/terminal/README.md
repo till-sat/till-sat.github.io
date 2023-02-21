@@ -1,12 +1,5 @@
----
-layout: default
-title: Life is a Journey
----
-
-# GDB
----
-## Terminal
-### Cursor Move
+# Terminal
+## Cursor Move
 | Operation        | Keys     |
 | ---              | ---      |
 | Front a position | ctrl + f |
@@ -16,7 +9,7 @@ title: Life is a Journey
 | Home             | ctrl + a |
 | End              | ctrl + e |
 
-### Delete
+## Delete
 | Operation        | Keys     |
 | ---              | ---      |
 | Front a position | ctrl + d |
@@ -24,7 +17,7 @@ title: Life is a Journey
 | Front a word     | alt + d  |
 | Back a word      | ctrl + w |
 
-### History
+## History
 | Operation        | Keys     |
 | ---              | ---      |
 | Front command    | ctrl + p |

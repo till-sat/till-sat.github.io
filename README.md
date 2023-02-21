@@ -23,21 +23,21 @@
 
 ## Code
 ### Instruction Sets
-* **[RISC-V](./my_docs/risc-v/README.html)**
+* **[RISC-V](./docs/risc-v/README.html)**
 
 ### System
 * [WSL](https://learn.microsoft.com/en-us/windows/wsl/)
 * [Terminal](./my_docs/terminal/README.html)
 
 ### Programming Language
-* **[C](./my_docs/c/README.html)**
+* **[C](./docs/c/README.html)**
 
 ### Editor
 * [Visual Studio Code](https://code.visualstudio.com/)
 
 ### Compiler
 * GCC
-* **[Makefile](./my_docs/makefile/README.html)**
+* **[Makefile](./docs/makefile/README.html)**
 
 ### Debuger
-* **[GDB](./my_docs/gdb/README.html)**
+* **[GDB](./docs/gdb/README.html)**

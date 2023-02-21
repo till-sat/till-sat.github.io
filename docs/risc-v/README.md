@@ -1,10 +1,4 @@
----
-layout: default
-title: Life is a Journey
----
-
 # RISC-V
----
 ## Manual
 ### Started
 * [The RISC-V Reader](./The%20RISC-V%20Reader.pdf)
