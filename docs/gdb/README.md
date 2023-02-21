@@ -1,28 +1,35 @@
 # GDB
----
-## Terminal
-### Cursor Move
-| Operation        | Keys     |
-| ---              | ---      |
-| Front a position | ctrl + f |
-| Back a position  | ctrl + b |
-| Front a word     | atl + f  |
-| Back a word      | alt + b  |
-| Home             | ctrl + a |
-| End              | ctrl + e |
 
-### Delete
-| Operation        | Keys     |
-| ---              | ---      |
-| Front a position | ctrl + d |
-| Back a position  | ctrl + h |
-| Front a word     | alt + d  |
-| Back a word      | ctrl + w |
+## 1 Shell
+### 1.1 Debug program
+``` shell
+$ gdbtui xxx
+```
+or
+``` shell
+$ gdb xxx
+(gdb) layout src
+```
 
-### History
-| Operation        | Keys     |
-| ---              | ---      |
-| Front command    | ctrl + p |
-| Back command     | ctrl + n |
-| Search           | ctrl + r |
-| Exit search      | ctrl + g |
+### 1.2 Terminal operation
+* See [../terminal/README.md](../terminal/README.md)
+
+### 1.3 Preventing display confusion
+1. query current terminal's output
+``` shell
+$ tty
+/dev/pts/0
+``` 
+2. redirect terminal to output
+``` shell
+(gdb) tty /dev/pts/1
+```
+
+## 2 Command
+### 2.1 Running
+| Command       | Explanation               |
+| ------------- | ------------------------- |
+| r / run       | run program from start    |
+| c / continue  | continue program from now |
+| s / start     | start from main and stop  |
+
