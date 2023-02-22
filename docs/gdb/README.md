@@ -75,13 +75,13 @@ $ tty
 | enable               | enable points               |
 
 ### 3.5 Print operation
-| Command              | Explanation                                     |
-| -------------------- | ----------------------------------------------- |
-| p / print            | e.g. p /x print - hex format                    |
-|                      | e.g. p *(struct point) - print struct           |
-| disp / display       | dispaly each time hit a breakpoint              |
-| call                 | call function in the source code                |
-|                      | e.g. every struct nice to hava a print function |
+| Command              | Explanation                                         |
+| -------------------- | --------------------------------------------------- |
+| p / print            | e.g. p /x print - hex format                        |
+|                      | e.g. p *(struct point) - print struct               |
+| disp / display       | dispaly each time hit a breakpoint                  |
+| call                 | call function in the source code                    |
+|                      | **e.g. every struct nice to hava a print function** |
 
 ### 3.6 File core
 | Command             | Explanation                            |
