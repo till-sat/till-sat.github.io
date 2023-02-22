@@ -25,18 +25,43 @@ $ gdb xxx
 1. query current terminal's output
 ``` shell
 $ tty
-/dev/pts/0
+/dev/pts/X
 ``` 
 2. redirect terminal to output
 ``` shell
-(gdb) tty /dev/pts/1
+(gdb) tty /dev/pts/Y
 ```
 
-## 2 Command
-### 2.1 Running
+## 2 Pause mechanism
+| Mechanism     | Pause                     |
+| ------------- | ------------------------- |
+| breakpoint    | pause execution           |
+| watchpoint    | pause execution when a particular memory location changes value|
+| catchpoint    | pause execution when a particular event occurs |
+
+
+## 3 Command
+### 3.1 Running
 | Command       | Explanation               |
 | ------------- | ------------------------- |
 | r / run       | run program from start    |
 | c / continue  | continue program from now |
 | s / start     | start from main and stop  |
 
+### 3.2 Breakpoint
+| Command       | Explanation               |
+| ------------- | ------------------------- |
+| b / break     | set a breakpoint          |
+
+### 3.3 Watchpoint
+| Command       | Explanation               |
+| ------------- | ------------------------- |
+| w / watch     | set a watchpoint          |
+
+### 3.4 Point operation
+| Command              | Explanation                 |
+| -------------------- | --------------------------- |
+| i / info breakpoints | query information of points |
+| d / delete           | delete a / all points       |
+| disable              | disable points              |
+| enable               | enable points               |
