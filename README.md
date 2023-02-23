@@ -22,7 +22,7 @@
 ## 4. Code
 | Usage      | Tool       | Link                       |
 | ---------- | ---------- | -------------------------- |
-| Language   | C          | https://www.cprogramming.com/ |
+| Language   | C          | https://en.cppreference.com/ |
 | Editor     | Vim        | https://www.vim.org/       |
 | Compiler   | Makefile   | https://www.gnu.org/software/make/ |
 | Debuger    | GDB        | https://www.sourceware.org/gdb/ |
