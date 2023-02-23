@@ -1,5 +1,6 @@
 # Terminal
-## Cursor Move
+## 1 Operaion 
+### 1.1 Cursor Move
 | Operation        | Keys     |
 | ---------------- | -------- |
 | Front a position | ctrl + f |
@@ -9,7 +10,7 @@
 | Home             | ctrl + a |
 | End              | ctrl + e |
 
-## Delete
+### 1.2 Delete
 | Operation        | Keys     |
 | ---------------- | -------- |
 | Front a position | ctrl + d |
@@ -17,7 +18,7 @@
 | Front a word     | alt + d  |
 | Back a word      | ctrl + w |
 
-## History
+### 1.3 History
 | Operation        | Keys     |
 | ---------------- | -------- |
 | Front command    | ctrl + p |

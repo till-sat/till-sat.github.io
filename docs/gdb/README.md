@@ -1,14 +1,14 @@
 # GDB
 
-## 0 Manual
-### Started
+## 1 Manual
+### 1.1 Started
 * [软件调试的艺术](./%E8%BD%AF%E4%BB%B6%E8%B0%83%E8%AF%95%E7%9A%84%E8%89%BA%E6%9C%AF.pdf)
 
-### Advanced
+### 1.2 Advanced
 * [Debugging with GDB The GNU Source-Level Debugger](./Debugging%20with%20GDB%20The%20GNU%20Source-Level%20Debugger.pdf)
 
-## 1 Shell
-### 1.1 Debug program
+## 2 Shell
+### 2.1 Debug program
 ``` shell
 $ gdbtui xxx
 ```
@@ -18,10 +18,10 @@ $ gdb xxx
 (gdb) layout src
 ```
 
-### 1.2 Terminal operation
+### 2.2 Terminal operation
 * See [../terminal/README.md](../terminal/README.md)
 
-### 1.3 Preventing display confusion
+### 2.3 Preventing display confusion
 1. query current terminal's output
 ``` shell
 $ tty
@@ -32,7 +32,7 @@ $ tty
 (gdb) tty /dev/pts/Y
 ```
 
-## 2 Pause mechanism
+## 3 Pause mechanism
 | Mechanism     | Pause                                                           |
 | ------------- | --------------------------------------------------------------- |
 | breakpoint    | pause execution                                                 |
@@ -41,8 +41,8 @@ $ tty
 | catchpoint    | pause execution when a particular event occurs                  |
 
 
-## 3 Command
-### 3.1 Running
+## 4 Command
+### 4.1 Running
 | Command       | Explanation               |
 | ------------- | ------------------------- |
 | r / run       | run program from start    |
@@ -52,21 +52,21 @@ $ tty
 | s / step      | step into a function      |
 | f / finish    | jump out a function       |
 
-### 3.2 Arguments
+### 4.2 Arguments
 | Command        | Explanation               |
 | -------------- | ------------------------- |
 | set args xxx   | set args then run         |
 | run args xxx   | run with args             |
 | start args xxx | start with args           |
 
-### 3.3 Breakpoint
+### 4.3 Breakpoint
 | Command       | Explanation                       |
 | ------------- | --------------------------------- |
 | b / break     | set a breakpoint                  |
 | tb / tbreak   | set a breakpoint only effect once |
 | w / watch     | set a watchpoint                  |
 
-### 3.4 Point operation
+### 4.4 Point operation
 | Command              | Explanation                 |
 | -------------------- | --------------------------- |
 | i / info breakpoints | query information of points |
@@ -74,7 +74,7 @@ $ tty
 | disable              | disable points              |
 | enable               | enable points               |
 
-### 3.5 Print operation
+### 4.5 Print operation
 | Command              | Explanation                                         |
 | -------------------- | --------------------------------------------------- |
 | p / print            | e.g. p /x print - hex format                        |
@@ -83,7 +83,7 @@ $ tty
 | call                 | call function in the source code                    |
 |                      | **e.g. every struct nice to hava a print function** |
 
-### 3.6 File core
+### 4.6 File core
 | Command             | Explanation                            |
 | ------------------- | -------------------------------------- |
 | file core           | dump particular core file              |
