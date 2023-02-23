@@ -1,7 +1,7 @@
 # Vim
-## 0 Manual
-### Started
+## 1 Manual
+### 1.1 Started
 * []
 
-### Advanced
+### 1.2 Advanced
 * []
