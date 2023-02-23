@@ -1,11 +1,17 @@
 # Programming
 
-## Language
+## 1. Language
 ### Translation
 * [DeepL](https://www.deepl.com/)
 
 
-## Search
+## 2. Search
+| Tool          | Link                      |
+| ------------- | ------------------------- |
+|Google         |https://www.google.com/    |
+|Wikipedia      |https://en.wikipedia.org/  |
+|Stack Overflow |https://stackoverflow.com/ |
+
 ### Engine
 * [Google](https://www.google.com/)
 
@@ -16,28 +22,23 @@
 * [Stack Overflow](https://stackoverflow.com/)
 
 
-## Document
+## 3. Document
 ### Format
 * [Markdown](https://daringfireball.net/projects/markdown/)
 
 
-## Code
-### System
-* [WSL](https://learn.microsoft.com/en-us/windows/wsl/)
-* **[Terminal](./docs/terminal/README.md)**
-
+## 4. Code
 ### Programming Language
-* **[C](./docs/c/README.md)**
+* **[C](./docs/1-c.md)**
 
 ### Editor
-* **[Vim](./docs/vim/README.md)**
+* **[Vim](./docs/2-vim.md)**
 
 ### Compiler
-* GCC
-* **[Makefile](./docs/makefile/README.md)**
+* **[Makefile](./docs/3-makefile.md)**
 
 ### Debuger
-* **[GDB](./docs/gdb/README.md)**
+* **[GDB](./docs/4-gdb.md)**
 
-### Instruction Sets
-* **[RISC-V](./docs/risc-v/README.md)**
+## 5. System
+* **[Terminal](./docs/terminal.md)**
