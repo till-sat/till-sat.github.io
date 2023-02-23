@@ -1,15 +1,7 @@
 # GDB
 
-## 1 Manual
-### 1.1 Started
-* **\<The Art of Debugging with GDB DDD and Eclipse>**
-
-
-### 1.2 Advanced
-* **\<Debugging with GDB The GNU Source-Level Debugger>**
-
-## 2 Shell
-### 2.1 Debug program
+## 1 Shell
+### 1.1 Debug program
 ``` shell
 $ gdbtui xxx
 ```
@@ -19,10 +11,10 @@ $ gdb xxx
 (gdb) layout src
 ```
 
-### 2.2 Terminal operation
+### 1.2 Terminal operation
 * See [../terminal/README.md](../terminal/README.md)
 
-### 2.3 Preventing display confusion
+### 1.3 Preventing display confusion
 1. query current terminal's output
 ``` shell
 $ tty
@@ -33,7 +25,7 @@ $ tty
 (gdb) tty /dev/pts/Y
 ```
 
-## 3 Pause mechanism
+## 2 Pause mechanism
 | Mechanism     | Pause                                                           |
 | ------------- | --------------------------------------------------------------- |
 | breakpoint    | pause execution                                                 |
@@ -42,8 +34,8 @@ $ tty
 | catchpoint    | pause execution when a particular event occurs                  |
 
 
-## 4 Command
-### 4.1 Running
+## 3 Command
+### 3.1 Running
 | Command       | Explanation               |
 | ------------- | ------------------------- |
 | r / run       | run program from start    |
@@ -53,21 +45,21 @@ $ tty
 | s / step      | step into a function      |
 | f / finish    | jump out a function       |
 
-### 4.2 Arguments
+### 3.2 Arguments
 | Command        | Explanation               |
 | -------------- | ------------------------- |
 | set args xxx   | set args then run         |
 | run args xxx   | run with args             |
 | start args xxx | start with args           |
 
-### 4.3 Breakpoint
+### 3.3 Breakpoint
 | Command       | Explanation                       |
 | ------------- | --------------------------------- |
 | b / break     | set a breakpoint                  |
 | tb / tbreak   | set a breakpoint only effect once |
 | w / watch     | set a watchpoint                  |
 
-### 4.4 Point operation
+### 3.4 Point operation
 | Command              | Explanation                 |
 | -------------------- | --------------------------- |
 | i / info breakpoints | query information of points |
@@ -75,7 +67,7 @@ $ tty
 | disable              | disable points              |
 | enable               | enable points               |
 
-### 4.5 Print operation
+### 3.5 Print operation
 | Command              | Explanation                                         |
 | -------------------- | --------------------------------------------------- |
 | p / print            | e.g. p /x print - hex format                        |
@@ -84,7 +76,7 @@ $ tty
 | call                 | call function in the source code                    |
 |                      | **e.g. every struct nice to hava a print function** |
 
-### 4.6 File core
+### 3.6 File core
 | Command             | Explanation                            |
 | ------------------- | -------------------------------------- |
 | file core           | dump particular core file              |
