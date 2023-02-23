@@ -26,6 +26,3 @@
 | Editor     | Vim        | https://www.vim.org/       |
 | Compiler   | Makefile   | https://www.gnu.org/software/make/ |
 | Debuger    | GDB        | https://www.sourceware.org/gdb/ |
-
-## 5. System
-* **[Terminal](./docs/terminal.md)**
