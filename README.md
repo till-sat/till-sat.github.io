@@ -13,7 +13,7 @@
 * [Wikipedia](https://en.wikipedia.org/)
 
 ### Q&A
-* [Stack Overflow](https://stackoverflow.co/)
+* [Stack Overflow](https://stackoverflow.com/)
 
 
 ## Document
@@ -33,7 +33,7 @@
 * **[C](./docs/c/README.md)**
 
 ### Editor
-* [Visual Studio Code](https://code.visualstudio.com/)
+* **[Vim](./docs/vim/README.md)**
 
 ### Compiler
 * GCC
