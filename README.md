@@ -22,9 +22,6 @@
 
 
 ## Code
-### Instruction Sets
-* **[RISC-V](./docs/risc-v/README.md)**
-
 ### System
 * [WSL](https://learn.microsoft.com/en-us/windows/wsl/)
 * **[Terminal](./docs/terminal/README.md)**
@@ -41,3 +38,6 @@
 
 ### Debuger
 * **[GDB](./docs/gdb/README.md)**
+
+### Instruction Sets
+* **[RISC-V](./docs/risc-v/README.md)**
