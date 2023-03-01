@@ -40,13 +40,13 @@
 | rs     | source register                      |
 | rd     | destination register                 |
 | imm    | immediate number                     |
-| funct  | support opcode for instruction type  |      
+| funct  | support **opcode** for instruction type  |      
 
 
 ## 2. Features
 | NO | Features                                  | Advantages |
 | -- | ----------------------------------------- | ---------- |
-| 1  | only six formats and fixed length 32 bits | simplify instructions decoding |
+| 1  | only six formats and length fixed 32 bits | simplify instructions decoding |
 | 2  | three register operands                   | reduce the number of instructions |
 | 3  | the specifiers of the registers to read and written are always in the same location in all instructions | the register aceesees can begin before decoding the instruction |
 | 4  | immediate fields are always sign extended, and the sign bit always in the most significant bit of the instruction | sign extension of the immediate before decoding the instruction |
