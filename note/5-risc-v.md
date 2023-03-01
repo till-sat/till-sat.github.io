@@ -1,6 +1,7 @@
 # RISC-V
 
-## Instruction formats
+## Instruction
+### Instruction type
 | Type   | Usage                            |
 | ------ | -------------------------------- |
 | R-type | for register-register operations |
@@ -10,6 +11,7 @@
 | U-type | for long immediates              |
 | J-type | for unconditional jumps          |
 
+### Instruction formats
 ```
  T S R Q P O N M L K Z I H G F E D C B A 9 8 7 6 5 4 3 2 1 0
 +-------------+---------+-----+-----+---------+------------+  
@@ -31,7 +33,7 @@
 |i|   imm[10:1]   |i|  imm[19:12]   |   rd    |   opcode   | J-type
 +-----------------+-+---------------+---------+------------+
 ```
-
+### Instruction domain
 | Domain | Usage                                |
 | ------ | ------------------------------------ |
 | opcode | instruction type                     |
@@ -39,7 +41,6 @@
 | rd     | destination register                 |
 | imm    | immediate number                     |
 | funct  | support opcode for instruction type  |      
-
 
 
 ## Features
