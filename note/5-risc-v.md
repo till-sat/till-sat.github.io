@@ -32,6 +32,16 @@
 +-----------------+-+---------------+---------+------------+
 ```
 
+| Domain | Usage                                |
+| ------ | ------------------------------------ |
+| opcode | instruction type                     |
+| rs     | source register                      |
+| rd     | destination register                 |
+| imm    | immediate number                     |
+| funct  | support opcode for instruction type  |      
+
+
+
 ## Features
 | NO | Features                                  | Advantages |
 | -- | ----------------------------------------- | ---------- |
