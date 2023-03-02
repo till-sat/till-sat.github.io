@@ -150,7 +150,7 @@
 ### 1.5 Instruction Operation
 | Category    | Format | Instruction           | Full Name                            |Function                                                      |
 | ----------- | ------ |---------------------- | ------------------------------------ | ------------------------------------------------------------ |
-| shifts      | R      | sll    rd, rs1, rs2   | Shift Left Logical                   | x[rs1] shift left logical x[rs2] bits, fill the empty bits with zero, write to x[rd] |
+| Shifts      | R      | sll    rd, rs1, rs2   | Shift Left Logical                   | x[rs1] shift left logical x[rs2] bits, fill the empty bits with zero, write to x[rd] |
 |             | I      | slli   rd, rs1, shamt | Shift Left Logical Immediate         | x[rs1] shift left logical shamt bits, fill the empty bits with zero, write to x[rd] |
 |             | R      | srl    rd, rs1, rs2   | Shift Right Logical                  | x[rs1] shift right logical x[rs2] bits, fill the empty bits with zero, write tox[rd] |
 |             | I      | srli   rd, rs1, shamt | Shift Right Logical Immediate        | x[rs1] shift right logical shamt bits, fill the empty bits with zero, write to x[rd] |
@@ -201,7 +201,45 @@
 * sext: sign-extend
 * zext: zero-extend
 
-### 1.6 寄存器对照表
+### 1.6 Register
+| Name | Alias   | Function                       |
+| ---- | ------- | ------------------------------ |
+| x0   | zero    | Hardwired zero                 |
+| x1   | ra      | Return address                 |
+| x2   | sp      | Stack pointer                  |
+| x3   | gp      | Global pointer                 |
+| x4   | tp      | Thread pointter                |
+| x5   | t0      | Temporary                      |
+| x6   | t1      | Temporary                      |
+| x7   | t2      | Temporary                      |
+| x8   | s0 / fp | Saved register / Frame pointer |
+| x9   | s1      | Saved register                 |
+| x10  | a0      | Fuction argument, return value |
+| x11  | a1      | Fuction argument, return value |
+| x12  | a2      | Fuction argument               |
+| x13  | a3      | Fuction argument               |
+| x14  | a4      | Fuction argument               |
+| x15  | a5      | Fuction argument               |
+| x16  | a6      | Fuction argument               |
+| x17  | a7      | Fuction argument               |
+| x18  | s2      | Saved register                 |
+| x19  | s3      | Saved register                 |
+| x20  | s4      | Saved register                 |
+| x21  | s5      | Saved register                 |
+| x22  | s6      | Saved register                 |
+| x23  | s7      | Saved register                 |
+| x24  | s8      | Saved register                 |
+| x25  | s9      | Saved register                 |
+| x26  | s10     | Saved register                 |
+| x27  | s11     | Saved register                 |
+| x28  | t3      | Temporary                      |
+| x29  | t4      | Temporary                      |
+| x30  | t5      | Temporary                      |
+| x31  | t6      | Temporary                      |
+
+| Name | Function                       |
+| ---- | ------------------------------ |
+| pc   | Program counter                |
 
 ## 2. Features
 | NO | Features                                  | Advantages |
